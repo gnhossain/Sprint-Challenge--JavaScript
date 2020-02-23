@@ -17,7 +17,7 @@
 //       })
 //Refactor
 
-      class CubeMaker{
+      class CuboidMaker{
         constructor(c){
             this.length = c.length;
             this.width = c.width;
@@ -33,12 +33,12 @@
           };
       }
     
-      const cube = new CubeMaker({
+      const cuboid = new CuboidMaker({
         length: 4,
         width: 5,
         height:5,
       });
-    
+
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
 console.log(cuboid.volume()); // 100
